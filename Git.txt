@@ -73,4 +73,6 @@ git clone [地址]
 --  生成公钥和私钥
 命令：ssh-keygen -t rsa -C "1504881098@qq.com"   生成公钥和私钥
 
-十二、
+十二、创建变量
+git remote add origin git@github.com:xujiahui123456/-.git    
+这里的remote 表示创建远程地址   add 添加变量  origin 变量名，接收变量地址
