@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f9f9f9;
+    color: #999;
+    font-size: 14px;
+}
+form{
+    color: #333;
+}
+input{
+    color: #666;
+    outline:none;
+}
+select{
+    outline:none;
+}
+.box1{
+    margin: 100px auto 90px;
+    width: 786px;
+    height: 489px;
+    background-color: white;
+    padding: 0 34px 30px ;
+    position: relative;
+}
+.box11{
+    position: absolute;
+    top: 0;
+    left: auto;
+    display: block;
+    width: 786px;
+    height: 88px;
+    /*background-color: red;*/
+}
+.box11 img{
+    display: block;
+    margin: auto;
+}
+.box12{
+    position: absolute;
+    top: 88px;
+    left: auto;
+    width: 786px;
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+.box13{
+    position: absolute;
+    top: 132px;
+    left: 261px;
+    width: 332px;
+    height: 356px;
+    /*background-color: #e24605;*/
+    color: black;
+
+}
+.box131{
+    border: solid 1px #eeeeee;
+    width: 332px;
+    height: 42px;
+    color: #5c5c5c
+}
+.box131>.select1{
+    border:none;
+    margin-left: 10px;
+    width: 322px;
+    height: 40px;
+}
+.box132{
+    border: solid 1px #eeeeee;
+    width: 332px;
+    height: 42px;
+
+    color: #5c5c5c
+}
+.select2{
+    float: left;
+    border:none;
+    border-right: solid 1px #eeeeee;
+    width: 74px;
+    height: 42px;
+}
+
+.select3{
+    border:none;
+    float: right;
+    width: 254px;
+    height: 38px;
+}
+.aa{
+    display: block;
+    width: 330px;
+    height: 42px;
+    background-color: orangered;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 42px; ;
+}
+.aa a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.aa a.aaa{
+    display: block;
+
+    width: 330px;
+    height: 42px;
+
+}
+
+.box14{
+    text-align: center;
+}
+.box14 a{
+    text-decoration: none;
+    color: #666;
+}

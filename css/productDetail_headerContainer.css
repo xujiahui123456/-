@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerContainerBox{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    height: 40px;
+    background-color: #333;
+}
+.headerContainer{
+    width: 1224px;
+    height: 40px;
+    margin:0 auto;
+    /*background-color: #333;*/
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 40px;
+}
+.headerContainer_left{
+    float: left;
+}
+.headerContainer a{
+    color: #b0b0b0;
+    text-decoration: none;
+}
+.hearContainer_IntervalLine{
+    font-family: sans-serif;
+    margin: 0 .5em;
+    color: #424242;
+}
+.headerContainer a:hover{
+    color: white;
+
+}
+.headerContainer_right{
+    float: right;
+    display: inline-block;
+    padding:0 24px;
+    height: 40px;
+
+}
+.headerContainer_right_shoppingCartSpan{
+    display: block;
+    width: 120px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    background-color: #424242;
+}
+.headerContainer_right_shoppingCartSpan:hover{
+
+    display: block;
+    float: right;
+    height: 40px;
+    background-color: white;
+    color: #e24605;
+}
+.notification{
+    display: inline-block;
+    width: 88px;
+    height: 40px;
+}
+/*=================================购物车部分==============================*/
+/*.headerContainer_right_backgroundImage{
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #424242;
+}
+
+.headerContainer_right_shoppingCart{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: inline-block;
+    width: 24px;
+    height: 40px;
+    background: url("../images/productDetail_shoppingCart.jpg");
+    line-height: 40px;
+}
+.//headerContainer_right__shoppingCartSpan{
+     display: block;
+     position: absolute;
+     top: auto;
+     left: 44px;
+ }
+
+.headerContainer_right_backgroundImage:hover{
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+}
+.headerContainer_right_shoppingCart:hover{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: inline-block;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    background: url("../images/productDetail_shoppingCartHover.jpg") no-repeat white;
+}
+.headerContainer_right_shoppingCartSpan:hover{
+    display: block;
+    position: absolute;
+    top: auto;
+    left: 44px;
+    color: #e24605;
+}*/
+
+

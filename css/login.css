@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Microsoft YaHei", "Arial", sans-serif;
+}
+
+a {
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------------------- */
+
+.headLink {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.headLink a {
+    display: block;
+    width: 200px;
+    height: 98px;
+    background-image: url('../images/mistore_logo.png');
+}
+
+/* ---------------------------------------------------------------- */
+
+.main {
+    height: 588px;
+    background: url('../images/background.jpg') 51% no-repeat;
+    position: relative;
+    margin-bottom: 66px;
+}
+
+/* ---------------------------------------------------------------- */
+
+.loginModule {
+    position: absolute;
+    right: 232px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 412px;
+    height: 524px;
+    background: white;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------------------------------------------------------------- */
+
+.way {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 26px 0;
+    align-items: center;
+}
+
+.way a {
+    font-size: 24px;
+    color: #777777;
+}
+
+.way a:hover {
+    color: #f46100;
+}
+
+.selected {
+    color: #f46100 !important;
+}
+
+.separate {
+    border: 1px #ddd solid;
+    margin: 0 42px;
+    height: 30px;
+    position: relative;
+}
+
+/* ---------------------------------------------------------------- */
+
+.account {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.account form {
+    display: flex;
+    flex-direction: column;
+}
+
+#username, #passwd {
+    width: 348px;
+    height: 49px;
+    border: 1px solid #e6e6e6;
+    padding: 13px;
+    font-size: 1.6ex;
+}
+
+input::-moz-placeholder {
+    color: #a8a8a8;
+}
+
+input:-ms-input-placeholder {
+    color: #a8a8a8;
+}
+
+input::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+input::placeholder {
+    color: #a8a8a8;
+}
+
+#username {
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+#passwd {
+    margin-bottom: 24px;
+}
+
+#submit {
+    width: 348px;
+    height: 49px;
+    border: 0;
+    font-size: 1.6ex;
+    color: white;
+    background: #f36b00;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------------------- */
+
+.regAndForget {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    width: 348px;
+}
+
+.separator {
+    font-size: 13px;
+    margin: 0 7px;
+    color: #8f8f8f;
+    font-weight: lighter;
+}
+
+.regAndForget a:hover {
+    color: orangered;
+}
+
+/* ---------------------------------------------------------------- */
+
+.otherWay {
+    margin-top: 109px;
+    width: 348px;
+}
+
+.otherWay fieldset {
+    border: 0;
+    border-top: 1px solid rgba(100, 100, 100, .3);
+    margin-bottom: 13px;
+    text-align: -webkit-center !important;
+    text-align: -moz-center !important;
+    text-align: center;
+}
+
+.otherWay fieldset legend {
+    font-size: 1.6ex;
+    color: #b8b8b8;
+}
+
+/* ---------------------------------------------------------------- */
+
+.fourIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 57px;
+}
+
+.fourIcon a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.fourIcon .qq {
+    background-color: #6e6e6e;
+    background-position: 2px 1px;
+    background-image: url('../images/qq.png');
+}
+
+.fourIcon .weibo {
+    background: #636363 center url('../images/weibo.png');
+}
+
+.fourIcon .alipay {
+    background: 3px center url('../images/alipay.png');
+    background-repeat: no-repeat;
+    background-color: #919191;
+}
+
+.fourIcon .wechat {
+    background: darkgray center url('../images/wechat.png');
+    background-color: #4c4c4c;
+    background-repeat: no-repeat;
+}
+
+.fourIcon .qq:hover {
+    background-color: #2b8fe5;
+}
+
+.fourIcon .weibo:hover {
+    background-color: #d32f2f;
+}
+
+.fourIcon .alipay:hover {
+    background-color: #3db1e5;
+}
+
+.fourIcon .wechat:hover {
+    background-color: #24da1b;
+}
+
+/* ---------------------------------------------------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.lang {
+    margin-bottom: 10px;
+}
+
+.lang a{
+    font-size: 1.6ex;
+}
+
+#simplified {
+    color: #454545;
+}
+
+.lang a:hover {
+    color: #454545;
+}
+
+.lang span {
+    margin: 0 7px;
+    font-size: 13px;
+    color: #8f8f8f;
+}
+
+.info {
+    font-size: 1.58ex;
+    color: #7f7f7f;
+}
+
+.info a img {
+    vertical-align: baseline;
+}
+
+.info * {
+    margin-left: -3px;
+}
+
+.info span:first-of-type {
+    margin-left: 0;
+}
+
+/* ---------------------------------------------------------------- */
+
+.qrCode {
+    margin-top: 77px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr {
+    margin-bottom: 18px;
+}
+
+.qrCode div {
+    color: #838383;
+    font-size: 14px;
+}
+
+.qrCode div span {
+    color: orangered;
+}
+
+/* ---------------------------------------------------------------- */
+
+@media (max-width: 660px) {
+    .loginModule {
+        left: 5px;
+    }
+}

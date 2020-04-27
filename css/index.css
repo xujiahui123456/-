@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    横幅广告 和顶部导航栏（黑色导航栏）
+*/
+
+
+
+.banner {
+  /*width: 1349px;*/
+
+    height: 120px;
+    margin:0 auto;
+    background: url("../images/top_icon.jpg") no-repeat  center 0;
+    min-width: 1226px;
+
+}
+
+.banner-link {
+    display: block;
+    height: 120px;
+
+}
+
+.top-bar {
+    /*width: 1349px;*/
+    height: 40px;
+    background: #333;
+
+}
+
+.top-container {
+    width:1226px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+    font-size: 12px;
+    background: #333;
+}
+
+.top-nav {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.top-container span {
+    display: inline-block;
+}
+
+.top-container a {
+    text-decoration: none;
+    color: #b0b0b0;
+    margin: 0 3px;
+}
+
+.top-container a:hover {
+    color: white;
+}
+
+.top-nav-r {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -8px;
+
+}
+
+#message {
+    margin-right: 50px;
+}
+
+/*----------------------------------------------------
+  头部导航栏 （白色导航栏-）
+*/
+.header {
+   /*width: 1349px;*/
+    height: 100px;
+
+}
+
+.herder-container {
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.herder-logo a {
+    width: 55px;
+    height: 55px;
+    background: #ff6700 url(../images/logo.png) no-repeat 50% 50%;
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+}
+
+/* 导航栏主体
+*/
+
+ul {
+    list-style: none;
+}
+
+.herder-nav {
+    width: 800px;
+    height: 100px;
+    margin-left: 60px;
+    line-height: 100px;
+/ / background-color: skyblue;
+}
+
+.nav-list li a {
+    float: left;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-list li a:hover {
+    color: red;
+}
+
+#one-list {
+    margin-left: 130px;
+    position: relative;
+
+}
+
+#two-list,
+#three-list,
+#four-list,
+#five-list,
+#six-list,
+#seven-list {
+    position: relative;
+}
+
+.product-list1,
+.product-list2,
+.product-list3,
+.product-list4,
+.product-list5,
+.product-list6,
+.product-list7 {
+    width: 1349px;
+    height: 230px;
+    margin: 0 auto;
+    border-top: 1px solid #e8e8e8;
+    position: absolute;
+    top: 100px;
+    left: -130px;
+    background: white;
+    display: none;
+}
+
+.product-list1 {
+    left: -260px;
+}
+
+#one-list:hover .product-list1 {
+    display: block;
+}
+
+#two-list:hover .product-list2 {
+    display: block;
+}
+
+#three-list:hover .product-list3 {
+    display: block;
+}
+
+#four-list:hover .product-list4 {
+    display: block;
+}
+
+#five-list:hover .product-list5 {
+    display: block;
+}
+
+#six-list:hover .product-list6 {
+    display: block;
+}
+
+#seven-list:hover .product-list7 {
+    display: block;
+}
+
+.product-list1 li,
+.product-list2 li,
+.product-list3 li,
+.product-list4 li,
+.product-list5 li,
+.product-list6 li,
+.product-list7 li {
+    width: 204px;
+    height: 201px;
+    border-right: 1px solid #e8e8e8;
+
+    float: left;
+    margin-left: 10px;
+}
+
+.product-list1 img,
+.product-list2 img,
+.product-list3 img,
+.product-list4 img,
+.product-list5 img,
+.product-list6 img,
+.product-list7 img {
+    width: 160px;
+    height: 110px;
+    margin: 40px 20px;
+
+}
+
+.item {
+
+    font-size: 14px;
+    position: relative;
+}
+
+.item .flag {
+    padding: 0 10px;
+    height: 22px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 22px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 40%;
+
+}
+
+.item .title {
+    width: 100px;
+    height: 20px;
+    padding: 0 50px;
+/ / background-color: lightpink;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 22px;
+    left: 50px;
+    margin-left: -40px;
+}
+
+.item .price {
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    color: red;
+    line-height: 20px;
+/ / background-color: rebeccapurple;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -85px;
+
+}
+
+.item .border-l {
+    width: 1px;
+    height: 110px;
+
+}
+
+.header-search {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.header-search .search-text {
+    width: 245px;
+    height: 50px;
+    outline: none;
+}
+
+.header-search .search-btn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+}
+
+/*
+-----------------------------------------------
+*/
+
+.body-content {
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    background: url("../images/icon1.jpg") no-repeat;
+
+}
+
+.body-content .right {
+    width: 992px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*垂直居中*/
+    justify-content: space-between;/*水平两端对齐*/
+}
+
+.body-content .arrow-l {
+    width: 42px;
+    height: 69px;
+    background: url("../images/arrow-l1 (2).png") 0 0 no-repeat;
+    display: flex;
+}
+
+.body-content .arrow-2 {
+    width: 42px;
+    height: 69px;
+    background: url("../images/arrow-r1 (2).png") 0 0 no-repeat;
+
+    display: flex;
+}
+
+.body-content .right .arrow-2:hover {
+    background-color: rgba(0, 0, 0, .5);
+
+}
+
+
+
+.aside {
+    width: 234px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    float: left;
+}
+
+.aside-list {
+    width: 234px;
+    height: 420px;
+
+}
+
+.aside-list a {
+    display: block;
+    width: 204px;
+    height: 42px;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 30px;
+    line-height: 42px;
+}
+
+.aside-list a:hover {
+   background-color: #ff7f21;
+}
+
+/*
+---------------------------------------------
+        家电导航
+*/
+.hd-zone {
+    /*width: 1349px;*/
+    margin: 30px 0;
+    background-color: #f5f5f5;
+}
+
+.box-hd {
+    width: 1226px;
+    height: 58px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    line-height: 58px;
+    font-size: 26px;
+
+}
+
+.hd-nav {
+    float: right;
+    font-size: 16px;
+}
+
+.hd-nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+}
+
+.hd-nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.row {
+    width: 1226px;
+    height: 628px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+.row ul {
+    width: 992px;
+    height: 614px;
+    float: right;
+}
+
+.row ul li {
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    position: relative;
+    transition: transform, box-shadow 250ms ease;
+}
+
+
+.row ul li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px 3px rgba(0, 0, 0, 0.08);
+}
+.row ul li img {
+    width: 150px;
+    height: 150px;
+    margin: 0 42px;
+    margin-top: 42px;
+
+}
+
+.flag-sale {
+    width: 64px;
+    height: 21px;
+    background-color: red;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -32px;
+}
+
+.hd-link,
+.hd-info,
+.hd-price {
+    display: block;
+    width: 214px;
+    height: 21px;
+    font-size: 14px;
+    text-align: center;
+    color: #525252;
+    margin: 0 auto;
+}
+
+.hd-info {
+    font-size: 12px;
+    color: #9c9c9c;
+}
+
+.hd-price {
+    position: absolute;
+    bottom: 20px;
+    color: red;
+
+}
+
+#old-price,
+#old-price2 {
+    text-decoration: line-through;
+    color: #9c9c9c;
+}
+
+/*
+------------------------------------------
+          底部
+*/
+.site-footer {
+    /*width: 1349px;*/
+    height: 272px;
+
+}
+
+.footer-service {
+    width: 1226px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+
+.footer-service ul li {
+    width: 143px;
+    height: 25px;
+    float: left;
+    margin-top: 28px;
+    padding: 0 50px;
+}
+
+.footer-service ul a {
+    text-decoration: none;
+    color: #4f4f4f;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer-service ul a:hover {
+    color: red;
+}
+
+hr {
+    width: 1226px;
+
+    margin: 0 auto;
+    color: #9c9c9c;
+}
+
+.footer-links {
+    width: 1226px;
+    height: 192px;
+    margin: 0 auto;
+
+}
+
+.footer-links dl {
+    width: 160px;
+    height: 112px;
+    float: left;
+    margin-top: 30px;
+
+}
+
+.footer-links dl dt,
+.footer-links dl dd {
+    width: 160px;
+    height: 18px;
+
+}
+
+.footer-links dl dt {
+    margin-bottom: 26px;
+}
+
+.footer-links dl dd {
+    margin-top: 10px;
+
+}
+
+.footer-links dl a {
+    text-decoration: none;
+    color: #797979;
+    font-size: 14px;
+}
+
+.footer-links dl a:hover {
+    color: red;
+}
+
+.contact {
+    width: 252px;
+    height: 112px;
+
+    float: right;
+    margin-top: 30px;
+}
+
+.contact .phone {
+    width: 210px;
+    height: 22px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-bottom: 5px;
+    margin: 0 auto;
+}
+
+.contact p {
+    width: 251px;
+    height: 36px;
+    text-align: center;
+    line-height: 18px;
+    margin-bottom: 16px;
+    color: #797979;
+    font-size: 12px;
+
+}
+
+.contact a {
+    display: block;
+    text-decoration: none;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.contact a:hover {
+    color: white;
+    background-color: red;
+
+}
+
+.siteinfo {
+    /*width: 1349px;*/
+    height: 106px;
+    padding: 30px 0;
+    background-color: #fafafa;
+
+}
+
+.container {
+    width: 1226px;
+    height: 57px;
+    margin: 0 auto;
+}
+
+.container a {
+    float: left;
+    text-decoration: none;
+}
+
+.container p a:hover {
+    color: red;
+}
+
+.container p {
+    font-size: 12px;
+    float: left;
+
+}
+
+.container .p1 a {
+    margin: 0 3px;
+    color: #404040;
+}
+
+.container .p2 {
+    color: #848484;
+}
+
+.container .p2 a {
+    color: #848484;
+}
+
+.info-links {
+    width: 376px;
+    height: 28px;
+    float: right;
+}
+
+.info-links img {
+    width: 85px;
+    height: 28px;
+}
+
+.slogan {
+    width: 267px;
+    height: 19px;
+    margin: 30px 571px;
+    font-size: 12px;
+    line-height: 18px;;
+    background: rgba(0, 0, 0, 0) url("../images/slogan2016.png") 0 0 no-repeat;
+
+}
