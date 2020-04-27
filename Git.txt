@@ -1,0 +1,74 @@
+一、初始化Git仓库
+1.在项目目录中右键打开 Git Bash       repository中文意思仓库
+这个仓库会存放，Git对我们项目代码进行备份的文件
+命令：git init
+2.清屏命令：clear
+
+二、配置使用者的用户名和邮箱(个人信息)
+1.每一次备份都会把当前备份者的信息存储起来
+配置用户名命令：git config --global user.name "徐家汇"  
+配置邮箱命令：git config --global user.email "1504881098@qq.com"  
+注意：这里的config是配置，global表示全局
+
+三、把代码放到git仓库中去
+1.步骤：①.把代码放到仓库的门口   git add ./css   把指定的文件   (注意：add 后面跟着文件路径)
+             命令：git add ./    这是把所有修改的文件添加到大门口
+            ②.把仓库门口的代码放到里面的房间中去 git commit -m “这是添加东西的说明”
+             命令：git commit --all -m "这是添加东西的说明"    这是可以一次性把我们修改的代码放到房间里（版本库）
+
+四、退出指令
+1.当在 git commit 命令后没有添加-m 添加信息，进入到信息页面，要退出，按下esc  :q 按下回车，返回到之前的页面，当退出不了时，可以在q后面加上！，表示强制退出
+
+
+五、查看当前的状态
+-- 可以用来查看当前代码有没有被放到仓库中去
+命令：git status
+
+六、查看日志
+git log     查看历史提交的日志
+git log  --oneline  可以看到简洁版的日志
+
+七、git版本返回
+git reset --hard Head~0      表示回退到上一次代码提交的状态
+git reset --hard Head~1      表示回退到上上次代码提交的状态
+
+八、版本号切换版本
+git reset --hard [版本号]    可以通过版本号精确地回退到某一次提交时的状态
+git reflog     可以看到每一次切换版本的记录，可以看到所有提交的版本号
+
+九、分支
+1.默认是有一个主分支master
+
+2.创建分支： git branch dev   (创建一个分支，这里的dev是分支名) 
+在刚创建的时候dev分支里的东西和master分支里的东西是一样的
+
+3.切换分支： git checkout dev  (切换到指定的分支，这里的切换到名为dev的分支)
+
+4.查看分支：  git branch  可以查看当前有哪些分支
+
+5.合并分支： git merge dev  (合并分支内容，把当前分支与指定的分支dev,进行合并)
+当前分支指的是'get branch' 命令输出的前面有*号的分支
+
+6.合并时如果有冲突，需要手动去处理，处理后还需要再提交一次
+
+十、GitHub
+--  不是Git，只是一个网站
+--  只不过这个网站提供了允许别人通过git上传代码的功能
+
+提交代码到github(当做git服务器来用)
+git push [地址] master
+--实例：git push https://github.com/xujiahui123456/test1.git master
+--会把当前分支的内容上传到远程的master分支上
+
+git pull [地址] master
+--实例：git pull https://github.com/xujiahui123456/test1.git master
+-- 会把远程分支的数据得到:(*注意本地要初始化一个仓储)
+
+git clone [地址]
+-- 会得到远程仓库相同的数据，如果多次执行会覆盖本地的内容
+
+
+十一、ssh方式上传代码
+--  公钥  私钥，两者之间是有关联的。
+--  生成公钥和私钥
+命令：ssh-keygen -t rsa -C "1504881098@qq.com"   生成公钥和私钥
